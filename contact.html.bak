@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>hairaena</title>
+    <title>hairarena</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -48,7 +48,7 @@
 
                 <ul class="list-unstyled components">
 
-                    <li>
+                    <li class="active">
                         <a href="index.html">Home</a>
                     </li>
                     <li>
@@ -61,7 +61,7 @@
                         <a href="pricing.html">Pricing</a>
                     </li>
 
-                    <li class="active">
+                    <li>
                         <a href="barbers.html">Our Barbers</a>
 
                     </li>
@@ -81,7 +81,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="full">
-                                <a class="logo" href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                <a class="logo" href="index.html"><img src="images/logo.jpg" alt="#" /></a>
                             </div>
                         </div>
                         <div class="col-md-9">
@@ -112,87 +112,60 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="title">
-                                <h2>Our Barbers</h2>
+                                <h2>Contact</h2>
 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- our barbers -->
-            <!-- section -->
-            <section class="resip_section">
-                <div class="container">
-
-                </div>
+            <!-- contact -->
+            <div id="contact" class="contact">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="owl-carousel owl-theme">
+                        <div class=" col-md-12">
+                            <div class="title">
+                                <h2>For <strong class="white"> Enquiries</strong></h2>
+                            </div>
+                        </div>
+                    </div>
 
-                                <div class="item">
-                                    <div class="product_blog_img">
-                                        <img src="images/1.png" alt="#" />
-                                    </div>
-                                    <div class="product_blog_cont">
-                                        <h3>Bright</h3>
-                                        <h4>Hair Stylist</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="product_blog_img">
-                                        <img src="images/2.png" alt="#" />
-                                    </div>
-                                    <div class="product_blog_cont">
-                                        <h3>Gabriel</h3>
-                                        <h4>Hair Stylist</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="product_blog_img">
-                                        <img src="images/3.png" alt="#" />
-                                    </div>
-                                    <div class="product_blog_cont">
-                                        <h3>Emmauel</h3>
-                                        <h4>Hair Stylis</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="product_blog_img">
-                                        <img src="images/1.gif" alt="#" />
-                                    </div>
-                                    <div class="product_blog_cont">
-                                        <h3>Simon</h3>
-                                        <h4>Hair Stylist</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="product_blog_img">
-                                        <img src="images/2.gif" alt="#" />
-                                    </div>
-                                    <div class="product_blog_cont">
-                                        <h3>Tope</h3>
-                                        <h4>Hair Stylist</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="product_blog_img">
-                                        <img src="images/3.png" alt="#" />
-                                    </div>
-                                    <div class="product_blog_cont">
-                                        <h3>Emmauel</h3>
-                                        <h4>Hair Stylist</h4>
-                                    </div>
-                                </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
+                            <form class="main_form">
+                                <div class="row">
+
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <input class="form-control" placeholder="Your Name" type="text" name="Your Name">
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <input class="form-control" placeholder="Phone Number" type="text" name="Email">
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <input class="form-control" placeholder="Email" type="text" name=" Email">
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <input class="form-control" placeholder="Date" type="date" name=" Date">
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <button class="send">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="img-box">
+                                <figure><img src="images/img.jpg" alt="img" />DX Media</figure>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </section>
-            <!-- end our barbers -->
-
+            </div>
+            <!-- end contact -->
             <!-- footer -->
             <fooetr>
                 <div class="footer">
@@ -208,7 +181,7 @@
                                     <h3>address</h3>
                                     <p>
                                         Address: Inside NNPC Filling Station, Eneka Link Road Roundabout, (Former OPM Road) Rumuowha Eneka, Port Harcourt, Rivers State
-                                        <br> Tel: 08112395515, 08138191414
+                                        <br> > Tel: 08112395515, 08138191414
                                         <br> Whatsapp No: +2348112395515 
                                         <br> Email: hairarenaph@gmail.com</p>
                                 </div>
@@ -227,7 +200,7 @@
                     </div>
                     <div class="copyright">
                         <div class="container">
-                            <p>© 2022 All Rights Reserved. <a href="CC"> </a></p>
+                            <p>© 2022 All Rights Reserved. <a href="CC> </a></p>
                         </div>
                     </div>
                 </div>
